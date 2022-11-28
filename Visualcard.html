@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Visual card.css">
+    <title>VISUAL CARD</title>
+
+
+</head>
+
+<body>
+    <div id="imager">
+        <img id="desearch" src="file:///Users/macbook/Desktop/bg-card-front.png" alt="image1" id="Lugo">
+
+        <img id="sofa" src="file:///Users/macbook/Desktop/bg-card-back.png" alt="Head image2" id="Luugo">
+        <div id="buma"></div>
+        <div id="uma"></div>
+        <h1 id="cardNumberplacement" name="numb">0000 0000 0000 0000</h1>
+        <h1 id="cardHolderNameplacement" name="surg">Jane Appleseed</h1>
+        <h1>
+            <span id="cardExpiryMonthplacement">00</span><span id="slashInSpan">/<span><span id="cardExpiryYearplacement">00</span>
+
+        </h1>
+        <h1 id="cardCvcplacement">000</h1>
+
+    </div>
+    <div id="pidher">
+        <img src="file:///Users/macbook/Desktop/bg-main-desktop.png" alt="Head image" id="Logo">
+
+    </div>
+
+
+    <div id="sumtin">
+        <form action="www.google.com" id="form">
+            <h6 class="surey">CARD HOLDERS NAME</h6>
+            <input id="cardHolderName" class="space" type="text" name="username" class="inputter"
+                placeholder="e.g. Jane Appleseed">
+            <div id="spacer"><p id="error">There is an Error!</p></div>
+            <h6 class="sure">CARD NUMBER</h6>
+            <input id="cardNumber"  class="space1"  name="number" class="inputter"
+                placeholder="e.g. 1234 5678 9123 0000">
+
+            <div class="cardNumberError white">Wrong format, numbers Only</div>
+
+            <div id="shelf">
+                <h6 class="sure">EXP.DATE</h6>
+                <input id="cardExpiryMonth" required type="number" maxlength="2" minlength="02" name="Exp"
+                    class="special" placeholder="MM">
+                    <!-- <div id="cardExpMonthSpaceError"><p id="errorMessageCardExpMonth">There is an Error!</p></div> -->
+                <h6 class="sure1">[MM/YY]</h6>
+                <input id="cardExpiryYear"  type="number" maxlength="2" name="mm1" class="special2"
+                    placeholder="YY">
+                    <div class="cardExpMonthYearError white">can't be blank</div>
+                <h6 class="sure2">CVC</h6>
+                <input id="cardCvc"  type="number" maxlength="3" name="cvc" class="special3"
+                    placeholder="e.g. 123">
+                    <div class="cardCvcSpaceError white">can't be blank</div>
+            </div>
+            <button id="summer" type="submit">Confirm</button>
+        </form>
+
+    </div>
+    <script src="Visual card.js"></script>
+</body>
